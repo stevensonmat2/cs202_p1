@@ -342,4 +342,7 @@ void Notes::display()
 
 void Notes::edit_author()
 {
-	:
+}
+
+
+

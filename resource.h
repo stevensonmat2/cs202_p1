@@ -82,7 +82,7 @@ class Notes:public Resource {
 		Notes();
 		Notes(char *name, char *course, char *subject, char *author, char *body, bool read);
 		~Notes();
-		bool display();
+		void display();
 		void edit_author();
 		void edit_body();
 		bool compare_author(char *name);
